@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Micromania, votre spécialiste jeux vidéos, consoles, cartes à jouer et produits dérivés</title>
+<meta name="description" content="Micromania-Zing, sp&eacute;cialiste des jeux vid&eacute;o, cartes &agrave; jouer et produits d&eacute;riv&eacute;s : le plus grand choix en France au meilleur prix, en magasin ou en ligne."/>
+<meta name="keywords" content="micromania"/>
+<meta name="name" content="Micromania, sp&eacute;cialiste des jeux vid&eacute;o console, PC et consoles portables">
+<meta property="property" content="Home Page Property for Micromania.">
+
+<link rel="icon" type="image/png" href="https://www.micromania.fr/on/demandware.static/Sites-Micromania-Site/-/default/dwd4b03605/images/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="https://www.micromania.fr/on/demandware.static/Sites-Micromania-Site/-/default/dwf7c77668/images/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://www.micromania.fr/on/demandware.static/Sites-Micromania-Site/-/default/dw1f876969/images/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://www.micromania.fr/on/demandware.static/Sites-Micromania-Site/-/default/dw49f5d395/images/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="https://www.micromania.fr/on/demandware.static/Sites-Micromania-Site/-/default/dw2f1138a6/images/favicons/favicon-128.png" sizes="128x128" />
+
+<link rel="preload" href="https://www.micromania.fr/on/demandware.static/Sites-Micromania-Site/-/default/dw76cf0066/images/logo-micromania.svg" as="image" />
+
+<style>
+/* *** THÈME DE COULEURS PERSONNALISÉ ***
+   - VERT principal (ex. Micromania) remplacé par ROUGE.
+   - BLEU/BLEU MARINE (secondaire/texte) remplacé par ORANGE.
+   - ROUGE (accentuation/promos) remplacé par JAUNE.
+*/
+
+/* Variables pour faciliter la lecture */
+:root {
+    --new-main-color: #E62D34; /* ROUGE */
+    --new-secondary-color: #FF8C00; /* ORANGE VIF */
+    --new-accent-color: #FFD700; /* JAUNE OR */
+    --new-text-on-main: #FFFFFF; /* Texte blanc sur fond rouge */
+    --new-text-on-accent: #000000; /* Texte noir sur fond jaune */
+}
+
+/* 1. Remplacement du VERT/Bleu Foncé principal par le ROUGE */
+.bg-main-gradient, .bg-main-secondary-desktop, .bg-main-secondary-nav, .bg-main-secondary, header, .footer-copy, .custom-bg-container {
+    background-color: var(--new-main-color) !important;
+    background-image: none !important; /* Retire le dégradé si besoin */
+}
+.header-link-item, .global-nav-link, .link-toutes-license, .link-all-licenses, .copy-sign, .global-nav-link-title, .user, .minicart-link {
+    color: var(--new-text-on-main) !important;
+}
+
+/* 2. Remplacement du Bleu Marine/Noir (texte principal, titres) par l'ORANGE */
+.color-light-navy, .color-darker-blue, .color-black-original, .mm-newsletter-label, .mm-accordion-toggle, .column-heading, .footer-font-title, .service-block {
+    color: var(--new-secondary-color) !important;
+}
+
+/* 3. Remplacement du ROUGE (accents, boutons, promos spéciales) par le JAUNE */
+.button-primary, .hero-button.button-primary, .crazy-xmas-global-cat a, .hero-button.button-ghost, .loyalty-push__register {
+    background-color: var(--new-accent-color) !important;
+    color: var(--new-text-on-accent) !important; 
+    border-color: var(--new-accent-color) !important;
+}
+.hero-button.button-ghost { /* Pour les boutons fantômes, on garde le texte blanc sur fond transparent si le bouton-primary n'est pas utilisé pour eux */
+    background: transparent !important;
+    border: 2px solid var(--new-text-on-main) !important;
+    color: var(--new-text-on-main) !important;
+}
+
+/* Correction spécifique des boutons/liens qui étaient en vert dans le CSS d'origine */
+a.link.button.button-primary.outline, a.button.button-primary.outline {
+    border-color: var(--new-secondary-color) !important;
+    color: var(--new-secondary-color) !important;
+}
+
+/* Remplacement du vert clair (pushs/promos) par l'ORANGE */
+.bg-color-light-green, .color-purpley, .tile-promo-block {
+    background-color: var(--new-secondary-color) !important;
+    color: var(--new-text-on-main) !important;
+}
+
+/* Remplacement de la couleur de l'icône de recherche sur fond Orange */
+.icon-search.color-greyish-brown, .search-suggestions__close-button img {
+    filter: invert(1) brightness(200%) sepia(100%) saturate(700%) hue-rotate(-20deg); /* Essai de rendre l'icône visible sur Orange */
+}
+
+/* Correction du lien Crazy Xmas inline CSS pour utiliser le Jaune */
+.crazy-xmas-global-cat a[style*="background-color"] {
+    background-color: var(--new-accent-color) !important;
+}
+.crazy-xmas-global-cat a[style*="background-color"] .nav-link-text {
+    color: var(--new-text-on-accent) !important;
+}
+
+/* Correction de la quantité dans le panier */
+.minicart-quantity {
+    background-color: var(--new-accent-color) !important;
+    color: var(--new-text-on-accent) !important;
+}
+</style>
+
+<link rel="canonical" href="https://www.micromania.fr/" />
+
+<script defer src="//d1m6l9dfulcyw7.cloudfront.net/uxt/cf9f3c9b5780d.js" type="text/javascript"></script>
+<script defer type="text/javascript" src="//apps.bazaarvoice.com/deployments/micromania-fr/main_site/production//bv.js"></script>
+
+<script type="text/javascript">//</script>
+<script type="text/javascript">//</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        window.dataLayer = window.dataLayer || [];
+        window.gtmSitePreferences = {"GTM_ENABLED":true,"GTM_CLICK":true,"GTM_HOVER":true,"GTM_SCROLL":true};
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://metrics.micromania.fr/lqnwq4mu6cypn38.js?awl='+i.replace(/^GTM-/, '')+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TMKWWVB');
+    });
+</script>
+<script>var isApp = false;const userAgent = navigator.userAgent || '';  if (userAgent.includes('isApp') || userAgent.includes('FABUILD')) {      isApp = true;  }if (isApp) {    let style = document.createElement("style");    style.textContent = `.r5-btn-social-bconnect { display: none !important; } #SAMSUNG_PAY { display: none !important; }`;    document.head.appendChild(style);}</script>
+<script type="text/javascript">function readCookie(name) {	var nameEQ = name + "=";
